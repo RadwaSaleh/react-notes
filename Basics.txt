@@ -1,0 +1,7 @@
+Basics:
+
+- React is all about components 
+- In React we write declarative javascript code which means we define the goal (what should be shown on the screen) and let React figure out how to get there.
+- We always build a component tree with one root component 
+- JSX is html code in javascript file
+- JSX gets compiled to JS behind the scenes 

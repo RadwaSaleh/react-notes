@@ -5,6 +5,7 @@
  the existing function component
 - useState is responsible for rerendering the enclosing component when a property/data I specify changes
 - Hooks must be called in a React function/component function.
+- Calling useState again will create a new state NOT update the state value.
 - useState returns an array with exactly two items:
   * The `current state` of this state variable, initially set to the `initial state` you provided.
   * The `set function` that lets you change it to any other value in response to interaction.

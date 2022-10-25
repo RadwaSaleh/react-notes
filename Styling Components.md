@@ -21,3 +21,4 @@
 
     - CSS Modules: 
       - "CSS files in which all class names and animation names are scoped locally by default".
+      - File name convention `Button.module.css`

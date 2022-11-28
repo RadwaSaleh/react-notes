@@ -4,7 +4,7 @@ to modify it without state update.
 - Using Refs is imperative because we are directly telling React that we want the picture to be painted
 in an exact way
 - useRef hook has been implemented as a solution to use React Refs within functional components
-- 3 steps are required to do that:
+- 3 steps are required to do that explained in the following example: 
     - Declaration step:
       - `const submitBtnRef = useRef(initialValue)`
       - useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue)
@@ -15,3 +15,5 @@ in an exact way
       - `submitBtnRef.current.doSomething()`
       - `.current` property is mutable means it can change at anytime.
       - Mutating the `.current` property doesn’t cause a component re-render
+
+- This approach is named "uncontrolled components" since form data is handled by the DOM itself (accessing form inputs and buttons by the DOM). The value that is reflected in them are not controlled by React. 

@@ -5,3 +5,7 @@
     - state updating functions
     - built-in APIs or functions
     - variables (not some state or a prop) or functions you might've defined OUTSIDE your components
+- useEffect hook generally runs after every component render cycle including first time the component is mounted.
+- No dependencies make useEffect function runs after every component render cycle including first time the component is mounted.
+- Empty array [] make useEffect function runs only one time which is the first time the component is mounted.
+- [dependency] make useEffect function runs whenever the component is re-evaluated AND this dependency (only this one) changed.

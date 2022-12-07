@@ -10,5 +10,6 @@
 
 [useRef.md](useRef.md)
 
+[useEffect.md](useEffect.md)
 
 [interview-questions.md](interview-questions.md)
